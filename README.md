@@ -1,2 +1,2 @@
 # webPractices
-![img](JSP_JDBC/eclipse-workspace/servletdemo/WebContent/Picture1.png)
+![Picture1](JSP_JDBC/eclipse-workspace/servletdemo/WebContent/Picture1.png)
