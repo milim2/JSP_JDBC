@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>  
+
+  <welcome-file-list>
+    <welcome-file>HomeServlet</welcome-file>
+  </welcome-file-list>
+  
+  <servlet>
+    <servlet-name>HomeServlet</servlet-name>
+    <servlet-class>com.example.controller.HomeServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>HomeServlet</servlet-name>
+    <url-pattern>/HomeServlet</url-pattern>
+  </servlet-mapping>  
+  
+  <context-param>
+  <param-name>AppID</param-name>
+  <param-value>123</param-value>
+  </context-param>
+  
+  <context-param>
+  <param-name>PI</param-name>
+  <param-value>3.14159</param-value>
+  </context-param>
+  
+  <context-param>
+  <param-name>Euler</param-name>
+  <param-value>2.7183</param-value>
+  </context-param>
+  
+</web-app>
